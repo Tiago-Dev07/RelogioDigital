@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: radial-gradient(rgb(156, 25, 25), rgb(47, 55, 139));
+}
+
+.sessao {
+    height: 500px;
+    margin: 90px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    gap: 15px;
+    border-radius: 2%;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.708);
+    color: #fff;
+    background: radial-gradient(rgb(15, 21, 94), red, rgb(84, 10, 10), yellow);
+}
+
+.relogio .horas,
+.minutos,
+.segundos {
+    background: rgba(41, 40, 41, 0.589);
+    /* border: 1px solid; */
+    font-size: 9rem;
+}
+
+.relogio .tempo {
+    /* border: 1px solid; */
+    font-size: 2rem;
+}
+
+@media screen and (max-width:719px) {
+
+    .relogio .horas,
+    .minutos,
+    .segundos {
+        font-size: 5rem;
+    }
+
+
+}
+
+@media screen and (max-width:515px) {
+
+    .relogio .horas,
+    .minutos,
+    .segundos {
+        font-size: 3rem;
+    }
+
+
+}
+
+@media screen and (max-width:414px) {
+
+    .relogio .horas,
+    .minutos,
+    .segundos {
+        font-size: 2rem;
+    }
+
+
+}
+
+
+@media screen and (max-width:366px) {
+    
+    .relogio .horas,
+        .minutos,
+        .segundos {
+            font-size: 1rem;
+        }
+    .titulo{
+        font-size: 10px;
+    }
+
+    .datas{
+        font-size: 10px;
+    }
+
+        .relogio .tempo {
+            /* border: 1px solid; */
+            font-size: 10px;
+        }
+
+
+}
