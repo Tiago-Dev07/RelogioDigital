@@ -76,14 +76,14 @@ body {
     .relogio .horas,
         .minutos,
         .segundos {
-            font-size: 1rem;
+            font-size: 2rem;
         }
     .titulo{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .datas{
-        font-size: 10px;
+        font-size: 15px;
     }
 
         .relogio .tempo {
